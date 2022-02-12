@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Josefin+Sans:wght@400;500&family=Lobster&family=Mochiy+Pop+P+One&family=Playfair+Display:wght@400;500&family=Raleway:wght@400;500&family=Righteous&family=Source+Code+Pro:wght@400;500&family=Ubuntu:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0vw 0vw;
+    background-color: #173c13;
+}
+.header{
+    height: 30vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #d7d185;
+    font-weight: 900;
+    font-size: 4vw;
+    font-family: 'Source Code Pro';
+    /* background-image: url('./images/header-back.jpg'); */
+    background-size: 100% 30vw;
+    -webkit-text-stroke: 0.01vw #69793b;
+    text-shadow: 0.01vw #69793b;
+}
+.intro{
+    width: 70%;
+    text-align: center;
+    font-size: 3vw;
+}
+.main{
+    height: 245vw;
+    margin: 2vw 7vw;
+    background-color: #455b2d;
+    color: #d7d185;
+}
+.story{
+    height: 135vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Raleway';
+    font-size: 2vw;
+    padding-top: 2vw;
+}
+.story h2{
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    font-size: 3vw;
+}
+.part1{
+    height: 35vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.part1 div{
+    width: 55%;
+    text-align: justify;
+}
+.part1 img{
+    height:90%;
+}
+.part2{
+    height: 47vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.part2 div{
+    width: 55%;
+    text-align: justify;
+}
+.part2 img{
+    height:90%;
+}
+.part3{
+    height: 47vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.part3 div{
+    width: 55%;
+    text-align: justify;
+}
+.part3 img{
+    height:95%;
+}
+.scupture{
+    margin-top: 4vw;
+    height: 105vw;
+}
+.scupture h2{
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+}
+.images{
+    height: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.images img{
+    height: 27vw;
+}
+.footer{
+    height: 8vw;
+    font-size: 3vw;
+    color: #dad7a6;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 8vw;
+}
+.footer p{
+    margin-bottom: 1vw;
+}
